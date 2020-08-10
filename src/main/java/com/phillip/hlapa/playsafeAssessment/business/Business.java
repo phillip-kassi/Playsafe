@@ -14,13 +14,13 @@ public class Business {
 		return  celsius + Constans.KELVIN_CONSTANT;
 	}
 	
-	//COnvert Miles to Kilometres
+	//Convert Miles to Kilometres
 	public double milesToKilometres(double miles) {
-		return miles * Constans.MILES_TO_KILOMETRES;
+		return miles * Constans.MILES_TO_KILOMETRES_CONSTANT;
 	}
 	
 	//Convert Kilometres to Miles
 	public double kilometresToMiles(double kilometers) {
-		return kilometers * Constans.KILOMETRES_TO_MILES;
+		return kilometers * Constans.KILOMETRES_TO_MILES_CONSTANT;
 	}
 }

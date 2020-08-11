@@ -10,7 +10,7 @@ public class Business {
 	private Logger logger = LoggerFactory.getLogger(Business.class);
 
 	public Business() {
-		logger.info("initializing Business method to perform operations");
+		logger.info("initializing Business class to perform operations");
 	}
 
 	//convert Kelvin to Celsius
